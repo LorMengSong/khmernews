@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    /* height: 200px; */
+    background-color: #0066bf;
+}
+.today{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 10px;
+    height: 10px;
+    border-right: 1px solid white;
+    
+}
+.today span{
+   
+    color: white;
+    font-size: 8px;
+    
+    font-family: 'Battambang';
+}
+.mymenu{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+   
+}
+.mymenu ul{
+    list-style-type: none;
+}
+.mymenu ul li{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.mymenu ul li a{
+    color: white;
+    padding: 10px;
+    font-family: 'Battambang';
+    font-size: 12px;
+    font-weight: 100px;
+    text-decoration: none;
+}
